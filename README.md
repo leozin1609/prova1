@@ -34,3 +34,5 @@ Siga os passos abaixo no seu terminal/prompt de comando:
     Acessar o Dashboard:
     Abra o seu navegador e digite o endereço:
     http://localhost:3000
+
+    ![Árvore DOM](./assets/arvore-dom.png)
