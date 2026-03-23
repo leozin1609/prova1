@@ -1,0 +1,70 @@
+/* Configuração Geral */
+body {
+    background-color: #0d1117; /* Fundo Grafite Escuro */
+    color: #00f2ff; /* Texto Ciano Neon */
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #00f2ff;
+    margin-bottom: 30px;
+}
+
+/* Container dos Cards */
+#dashboard {
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilo dos Cards */
+.card {
+    background: #161b22;
+    border: 2px solid #30363d;
+    border-radius: 15px;
+    padding: 25px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #00f2ff;
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.4);
+}
+
+.card h2 {
+    font-size: 14px;
+    color: #8b949e;
+    margin-bottom: 10px;
+}
+
+.v {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+/* Alerta Crítico Animado */
+.alerta-critico {
+    border-color: #ff3e3e !important;
+    color: #ff3e3e !important;
+    background: rgba(255, 62, 62, 0.1);
+    box-shadow: 0 0 25px rgba(255, 62, 62, 0.6) !important;
+    animation: pulsar 1.5s infinite;
+}
+
+@keyframes pulsar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
